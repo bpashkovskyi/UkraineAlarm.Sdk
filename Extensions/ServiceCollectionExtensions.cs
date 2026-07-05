@@ -46,7 +46,7 @@ public static class ServiceCollectionExtensions
                 .Value;
 
             client.BaseAddress = options.BaseAddress;
-            client.DefaultRequestHeaders.Add("Authorization", options.ApiKey);
+            client.DefaultRequestHeaders.TryAddWithoutValidation("Authorization", options.ApiKey);
         });
     }
 }

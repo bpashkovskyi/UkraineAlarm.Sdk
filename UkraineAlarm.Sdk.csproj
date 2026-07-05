@@ -13,7 +13,7 @@
 
   <PropertyGroup>
     <PackageId>UkraineAlarm.Sdk</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>UkraineAlarm.Sdk</Authors>
     <Description>Unofficial .NET 10 SDK for the Ukraine Alert API (api.ukrainealarm.com).</Description>
     <PackageTags>ukraine;alarm;alerts;air-raid;sdk</PackageTags>
